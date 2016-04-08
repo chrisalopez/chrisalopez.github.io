@@ -1,7 +1,9 @@
 body {
-	background-image: url('../images/world_bw.jpg');
+	background: url('../images/world_bw.jpg') no-repeat 25% 10% fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
-	background-repeat: no-repeat;
 }
 
 h1, p {
