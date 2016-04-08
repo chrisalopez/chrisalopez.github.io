@@ -1,0 +1,14 @@
+body {
+	background-image: url('file:///Users/Clo/Desktop/unit_1/images/Soccer%20Balls.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1, p {
+	color: white;
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
