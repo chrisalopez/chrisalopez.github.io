@@ -69,6 +69,8 @@ aside {
 #slogan {
 	color: #B27508;
 	font-size: 40px;
+	font-style: italic;
+	font-weight: bold;
 }
 
 #Cover {
