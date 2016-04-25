@@ -1,0 +1,155 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+header {
+	background-color: #34577F;
+	width: 100%;
+	height: 80px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	margin: auto 10px auto 0px;
+}
+
+body {
+	background: url("../images/Downtown.jpeg");
+	width: 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: auto;
+	text-align: center;
+}
+
+footer {
+	background-color: rgba(255, 205, 0, .6);
+	padding: 5px;
+	margin: 10px 0px;
+	text-align: center;
+}
+
+h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 30px;
+	color: #FFF;
+	text-align: left;
+}
+
+nav {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 15px;
+	text-align: right;
+	text-decoration: none;
+}
+
+.pages {
+	color: #FFF;
+	text-align: right;
+	text-decoration: none;
+	text-decoration: none;
+	margin: auto 10px auto 0px;
+}
+
+.pages:hover {
+	background-color: #B27508;
+}
+
+aside {
+	float: right;
+}
+#ConImg {
+	height: auto;
+	width: auto;
+	max-width: 500px;
+	max-height: 500px;
+	border-style: outset;
+	border-width: 5px;
+}
+
+#slogan {
+	color: #B27508;
+	font-size: 40px;
+}
+
+#Cover {
+	border-radius: 50%;
+	border: 10px solid rgba(255, 172, 24, 0.3);
+}
+
+h3 {
+	color: #FFAC18;
+	text-shadow: 
+	-1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+p, ul {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #34577F;
+	font-size: 20px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	width: auto;
+	height: auto;
+	padding: 10px 100px;
+	letter-spacing: 2px;
+	text-shadow: 
+	-1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+}
+
+li {
+	list-style-type: none;
+}
+
+h4 {
+	color: #FFB531;
+	text-shadow: 
+	-1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    letter-spacing: 3px;
+}
+
+.links {
+	display:inline-block;
+    width:20%;
+    margin:0;
+    padding:0;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+	text-shadow: 
+	-1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+
+}
+
+.links:hover {
+	background-color: #34577F;
+}
+
+.email {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+	text-shadow: 
+	-1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF; 
+}
+
+.email:hover {
+	background-color: #34577F;
+}
