@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel);
+@import url(https://fonts.googleapis.com/css?family=Poppins:500);
+
 * {
 	padding: 0px;
 	margin: 0px;
@@ -6,18 +9,21 @@
 header {
 	background-color: #34577F;
 	width: 100%;
-	height: 80px;
-	letter-spacing: 2px;
+	height: auto;
 	text-decoration: none;
-	margin: auto 10px auto 0px;
+	position: fixed;
+}
+
+section {
+	padding-top: 80px;
 }
 
 body {
-	background: url("../images/Downtown.jpeg");
-	width: 100%;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	height: auto;
+	background: url('../images/downtown.jpeg')no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 	text-align: center;
 }
 
@@ -29,17 +35,21 @@ footer {
 }
 
 h1 {
-	font-family: "Arial Black", Gadget, sans-serif;
+	font-family: font-family: 'Cinzel', serif;
 	font-size: 30px;
 	color: #FFF;
 	text-align: left;
+	letter-spacing: 5px;
+	word-spacing: 5px;
+	padding: 0px 10px;
 }
 
 nav {
-	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 15px;
+	font-family: font-family: 'Poppins', sans-serif;
+	font-size: 16px;
 	text-align: right;
 	text-decoration: none;
+	padding: 5px;
 }
 
 .pages {
