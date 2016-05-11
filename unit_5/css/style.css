@@ -1,0 +1,168 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel);
+@import url(https://fonts.googleapis.com/css?family=Poppins:500);
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+header {
+	background-color: #34577F;
+	width: 100%;
+	height: auto;
+	text-decoration: none;
+	position: fixed;
+}
+
+section {
+	padding-top: 80px;
+}
+
+body {
+	background: url('../images/Downtown.jpeg')no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	text-align: center;
+}
+
+footer {
+	background-color: rgba(255, 205, 0, .6);
+	padding: 5px;
+	margin: 10px 0px;
+	text-align: center;
+}
+
+h1 {
+	font-family: font-family: 'Cinzel', serif;
+	font-size: 30px;
+	color: #FFF;
+	text-align: left;
+	letter-spacing: 5px;
+	word-spacing: 5px;
+	padding: 0px 10px;
+}
+
+nav {
+	font-family: font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	text-align: right;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.pages {
+	color: #FFF;
+	text-align: right;
+	text-decoration: none;
+	text-decoration: none;
+	margin: auto 10px auto 0px;
+}
+
+.pages:hover {
+	background-color: #B27508;
+}
+
+#ConImg {
+	height: auto;
+	width: auto;
+	max-width: 500px;
+	max-height: 500px;
+	border-style: outset;
+	border-width: 5px;
+}
+
+#slogan {
+	font-family: font-family: 'Poppins', sans-serif;
+	color: #B27508;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#Cover {
+	border-radius: 50%;
+	border: 10px solid rgba(255, 172, 24, 0.3);
+}
+
+h3 {
+	font-family: font-family: 'Cinzel', serif;
+	color: #FFAC18;
+	text-shadow: 
+	-1.5px -1.5px 0 #000,
+    1.5px -1.5px 0 #000,
+    -1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+p, ul {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #FFF;
+	font-size: 20px;
+	font-family: font-family: 'Poppins', sans-serif;
+	width: auto;
+	height: auto;
+	padding: 10px 100px;
+	letter-spacing: 2px;
+	text-shadow: 
+	-1.5px -1.5px 0 #000,
+    1.5px -1.5px 0 #000,
+    -1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000;
+}
+
+li {
+	list-style-type: none;
+}
+
+h4 {
+	color: #FFB531;
+	text-shadow: 
+	-1.5px -1.5px 0 #000,
+    1.5px -1.5px 0 #000,
+    -1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    font-size: 16px;
+}
+
+.links {
+	display:inline-block;
+    width:20%;
+    margin:0;
+    padding:0;
+	font-family: font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+	text-shadow: 
+	-1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+
+}
+
+.links:hover {
+	background-color: #34577F;
+}
+
+.email {
+	font-family: font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+	text-shadow: 
+	-1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF; 
+}
+
+.email:hover {
+	background-color: #34577F;
+}
