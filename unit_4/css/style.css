@@ -11,6 +11,7 @@
 	display: block;
 	clear: both;
 }
+
 header {
 	background-color: #34577F;
 	width: 100%;
@@ -60,6 +61,10 @@ nav {
 	float: right;
 }
 
+aside {
+	float: right;
+}
+
 .pages {
 	color: #FFF;
 	text-align: right;
@@ -72,9 +77,6 @@ nav {
 	background-color: #B27508;
 }
 
-aside {
-	float: right;
-}
 #ConImg {
 	height: auto;
 	width: auto;

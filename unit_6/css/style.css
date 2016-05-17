@@ -1,0 +1,213 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel);
+@import url(https://fonts.googleapis.com/css?family=Poppins:500);
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	height: auto;
+	width: 100%;
+	text-decoration: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding-top: 60px;
+}
+
+body {
+	background: url('../images/Downtown.jpeg')no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	text-align: center;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 5px;
+	/* background-color: rgba(255, 205, 0, .6); */
+	margin: 10px 0px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Cinzel', serif;
+	font-size: 30px;
+	color: #FFF;
+	text-align: left;
+	letter-spacing: 5px;
+	word-spacing: 5px;
+	padding: 0px 10px;
+	float: left;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	font-family:'Poppins', sans-serif;
+	font-size: 16px;
+	text-align: right;
+	text-decoration: none;
+	padding: 7px 0 0 0;
+	float: right;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	/*padding: 20px;*/
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;	
+}
+
+div {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.pages {
+	color: #FFF;
+	text-align: right;
+	text-decoration: none;
+	text-decoration: none;
+	margin: auto 10px auto 0px;
+}
+
+.pages:hover {
+	background-color: #B27508;
+}
+
+img {
+	width: 100%;
+}
+
+#ConImg {
+	max-width: 500px;
+	/*border-style: outset;*/
+	border-width: 5px;
+}
+
+#slogan {
+	font-family: font-family: 'Poppins', sans-serif;
+	color: #B27508;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#Cover {
+	max-width: 450px;
+	border-radius: 50%;
+	border: 10px solid rgba(255, 172, 24, 0.3);
+}
+
+h3 {
+	font-family: font-family: 'Cinzel', serif;
+	color: #FFAC18;
+	text-shadow: 
+	-1.5px -1.5px 0 #000,
+    1.5px -1.5px 0 #000,
+    -1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+p, ul {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #FFF;
+	font-size: 20px;
+	font-family: font-family: 'Poppins', sans-serif;
+	width: auto;
+	height: auto;
+	padding: 10px 100px;
+	letter-spacing: 2px;
+	text-shadow: 
+	-1.5px -1.5px 0 #000,
+    1.5px -1.5px 0 #000,
+    -1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000;
+}
+
+li {
+	list-style-type: none;
+}
+
+h4 {
+	color: #FFB531;
+	text-shadow: 
+	-1.5px -1.5px 0 #000,
+    1.5px -1.5px 0 #000,
+    -1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    font-size: 16px;
+}
+
+.links {
+	display:inline-block;
+    width:20%;
+    margin:0;
+    padding:0;
+	font-family: font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+	text-shadow: 
+	-1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+
+}
+
+.links:hover {
+	background-color: #34577F;
+}
+
+.email {
+	font-family: font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+	text-shadow: 
+	-1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF; 
+}
+
+.email:hover {
+	background-color: #34577F;
+}
+
+@media screen and (max-width:480px) {
+	h1 {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+}
