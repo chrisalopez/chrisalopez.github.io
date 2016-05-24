@@ -4,8 +4,16 @@
 * {
 	padding: 0px;
 	margin: 0px;
+	box-sizing:border-box;
 }
-
+body {
+	background: url('../images/Downtown.jpeg') no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	text-align: center;
+}
 .clearfix:after {
 	visibility: hidden;
     display: block;
@@ -29,16 +37,7 @@ header {
 section {
 	background-color: #FFE2B8;
 	border: 1px black solid;
-	padding-top: 60px;
-}
-
-body {
-	background: url('../images/Downtown.jpeg')no-repeat center center fixed;
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-	text-align: center;
+	padding:5em 0;
 }
 
 footer {
@@ -104,6 +103,8 @@ div {
 
 img {
 	width: 100%;
+	display:block;
+	margin:auto;
 }
 
 #ConImg {
@@ -147,11 +148,7 @@ p, ul {
 	height: auto;
 	padding: 10px 100px;
 	letter-spacing: 2px;
-	text-shadow: 
-	-1.5px -1.5px 0 #000,
-    1.5px -1.5px 0 #000,
-    -1.5px 1.5px 0 #000,
-    1.5px 1.5px 0 #000;
+	text-shadow: 1px 1px 3px rgba(0,0,0,.25), 2px 2px 4px rgba(0,0,0,.15);
 }
 
 li {
