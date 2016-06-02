@@ -18,8 +18,7 @@ body {
 
 header {
 	background-color: #0030B2;
-/*	border: 1px black solid;
-*/	height: auto;
+	height: auto;
 	width: 100%;
 	text-decoration: none;
 	position: fixed;
@@ -28,18 +27,15 @@ header {
 }
 
 section {
-/*	background-color: #FFE2B8;
-	border: 1px black solid;
-*/	padding:5em 0;
+	padding:5em 0;
 }
 
 footer {
-/*	background-color: #FF957E;
-	border: 1px black solid;
-*/	padding: 5px;
-	/* background-color: rgba(255, 205, 0, .6); */
-	margin: 10px 0px;
-	text-align: left;
+	font-family:'Poppins', sans-serif;
+	background-color: #0030B2;
+	height: auto;
+	width: 100%;
+	clear: left;
 }
 
 h1 {
@@ -65,48 +61,24 @@ nav {
 	float: right;
 }
 
-/*a:link {
-	font-family:'Poppins', sans-serif;
-	font-size: 16px;
-	text-align: right;
-	text-decoration: none;
-}
-
-a:visited{
-	color: #fff;
-}
-
-a:hover{
-	background-color: red;
-}
-
-a:active{
-	color: #B29343;
-}
-*/
 label {
 	font-family:'Poppins', sans-serif;
 	font-size: 16px;
-/*	text-align: right;
-*/	text-decoration: none;
+	text-decoration: none;
 	display: none;
 }
 
 aside {
-/*	background-color: #FFC675;
-	border: 1px black solid;
-*/	/*padding: 20px;*/
+	float: right;
 }
 
 article {
-/*	background-color: #E89C6C;
-	border: 1px black solid;
-*/	padding: 20px;	
+	padding: 20px;
+	float: left;
+	width: 50%;
 }
 
 div {
-/*	background-color: #FFE2B8;
-*/	border: 1px black solid;
 	padding: 20px;
 }
 
@@ -114,12 +86,24 @@ a {
 	text-decoration: none;
 }
 
+.fright {
+	font-size: 14px;
+	padding: 0;
+	color: #fff;
+	text-shadow: none;
+	background: none;
+}
+
+footer a {
+	text-align: left;
+	color: #fff;
+}
+
 .pages {
 	font-family:'Poppins', sans-serif;
 	font-size: 16px;
 	color: #828282;
 	text-align: right;
-	text-decoration: none;
 	text-decoration: none;
 	margin: auto 10px;
 }
@@ -134,9 +118,16 @@ img {
 	margin:auto;
 }
 
+#Summary {
+	padding-bottom: 30px;
+}
+
+#Links {
+
+}
+
 #ConImg {
 	max-width: 500px;
-	/*border-style: outset;*/
 	border-width: 5px;
 }
 
@@ -157,13 +148,14 @@ img {
 h3 {
 	font-family: font-family: 'Cinzel', serif;
 	color: #FFC32D;
+	background-color: rgba(255, 255, 255, .9);
 	text-shadow: 1px 1px 3px rgba(0,0,0,.25), 2px 2px 4px rgba(0,0,0,.15);
     letter-spacing: 2px;
     font-size: 30px;
 }
 
 p, ul {
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 1);
 	color: #000;
 	font-size: 1.5em;
 	font-family: font-family: 'Poppins', sans-serif;
@@ -179,6 +171,7 @@ li {
 
 h4 {
 	color: #B29343;
+	background-color: rgba(255, 255, 255, .9);
 	text-shadow: 1px 1px 3px rgba(89,134,255,.25), 2px 2px 4px rgba(89,134,255,.15);
     letter-spacing: 2px;
     word-spacing: 10px;
@@ -195,32 +188,28 @@ h4 {
 }
 
 #two_column {
-/*    background-color: #FFB7CF;
-    border: 1px black solid;
-*/    padding: 20px;
+    padding: 20px;
+}
+
+.Contact {
+	clear: left;
 }
 
 #left {
-/*    background-color: violet;
-    border: 1px black solid;
-*/    padding: 20px;
+    padding: 20px;
     float: left;
     width: 30%;
 }
 
 #right {
-/*    background-color: pink;
-    border: 1px black solid;
-*/    padding: 20px;
+    padding: 20px;
     float: right;   
     width: 62%;
 }
 
 .links {
-	display:inline-block;
-    width:20%;
-    margin:0;
-    padding:0;
+	width:50%;
+    padding: 10px;
 	font-family: font-family: 'Poppins', sans-serif;
 	font-size: 20px;
 	text-decoration: none;
@@ -252,14 +241,6 @@ h4 {
 	background-color: #34577F;
 }
 
-footer p {
-	font-size: 14px;
-	padding: 0;
-	float: right;
-	color: #000;
-	text-shadow: none;
-}
-
 #toggle {
 	display: none;
 }
@@ -281,6 +262,10 @@ footer p {
 	nav a:hover{
 		color: #FFC32D;
 		background: #5986FF;
+	}
+
+	aside {
+		margin-left: none;
 	}
 
 	p, ul {
@@ -314,6 +299,10 @@ footer p {
 		display: block;
 		padding:15px;
 		margin: 0;
+	}
+
+	aside {
+		margin-left: none;
 	}
 
 	label {
