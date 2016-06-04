@@ -103,8 +103,9 @@ footer a {
 	width: 100%;
 }
 
-#indepth {
+#InDepth {
 	width: 50%;
+	margin: 0 0 0 50px;
 }
 
 #Contact {
@@ -164,7 +165,17 @@ h3 {
 	background-color: rgba(255, 255, 255, .9);
 	text-shadow: 1px 1px 3px rgba(0,0,0,.25), 2px 2px 4px rgba(0,0,0,.15);
     letter-spacing: 2px;
+    word-spacing: 10px;
     font-size: 30px;
+}
+
+h4 {
+	color: #B29343;
+	background-color: rgba(255, 255, 255, .9);
+	text-shadow: 1px 1px 3px rgba(89,134,255,.25), 2px 2px 4px rgba(89,134,255,.15);
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    font-size: 16px;
 }
 
 p, ul {
@@ -180,15 +191,6 @@ p, ul {
 
 li {
 	list-style-type: none;
-}
-
-h4 {
-	color: #B29343;
-	background-color: rgba(255, 255, 255, .9);
-	text-shadow: 1px 1px 3px rgba(89,134,255,.25), 2px 2px 4px rgba(89,134,255,.15);
-    letter-spacing: 2px;
-    word-spacing: 10px;
-    font-size: 16px;
 }
 
 .clearfix:after {
