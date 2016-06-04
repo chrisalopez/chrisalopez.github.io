@@ -70,12 +70,12 @@ label {
 
 aside {
 	float: right;
+	width: 50%;
 }
 
 article {
-	padding: 20px;
+	padding-bottom: 10px;
 	float: left;
-	width: 50%;
 }
 
 div {
@@ -97,6 +97,19 @@ a {
 footer a {
 	text-align: left;
 	color: #fff;
+}
+
+.landing {
+	width: 100%;
+}
+
+#indepth {
+	width: 50%;
+}
+
+#Contact {
+	clear: both;
+	margin: 0 30%;
 }
 
 .pages {
@@ -160,7 +173,7 @@ p, ul {
 	font-size: 1.5em;
 	font-family: font-family: 'Poppins', sans-serif;
 	width: auto;
-	padding: 10px 100px;
+	padding: 2%;
 	letter-spacing: 2px;
 	text-shadow: 1px 1px 3px rgba(28,89,255,.25), 2px 2px 4px rgba(28,89,255,.15);
 }
@@ -229,6 +242,7 @@ h4 {
 	font-family: font-family: 'Poppins', sans-serif;
 	font-size: 20px;
 	text-decoration: none;
+	margin: auto;
 	color: #000;
 	text-shadow: 
 	-1px -1px 0 #FFF,
