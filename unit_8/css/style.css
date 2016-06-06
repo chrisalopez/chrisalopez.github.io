@@ -71,10 +71,11 @@ label {
 aside {
 	float: right;
 	width: 50%;
+	margin-bottom: 50px;
 }
 
 article {
-	padding-bottom: 10px;
+	padding-bottom: 80px;
 	float: left;
 }
 
@@ -95,7 +96,6 @@ a {
 }
 
 footer a {
-	text-align: left;
 	color: #fff;
 }
 
@@ -105,7 +105,6 @@ footer a {
 
 #InDepth {
 	width: 50%;
-	margin: 0 0 0 50px;
 }
 
 #Contact {
@@ -126,23 +125,25 @@ footer a {
 	color: #B29343;
 }
 
+#Pages h3{
+	margin-bottom: 1em;
+}
+
 img {
-	width: 100%;
+	width: 2448px;
 	display:block;
 	margin:auto;
 }
 
-#Summary {
-	padding-bottom: 30px;
-}
-
-#Links {
-
-}
-
 #ConImg {
-	max-width: 500px;
-	border-width: 5px;
+	max-width: 100%;
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    display: block;
+    margin: 15% 0;
 }
 
 #slogan {
@@ -155,6 +156,7 @@ img {
 
 #Cover {
 	max-width: 450px;
+	width: 100%;
 	border-radius: 50%;
 	border: 10px solid rgba(255, 172, 24, 0.3);
 }
@@ -223,7 +225,7 @@ li {
 }
 
 .links {
-	width:50%;
+	float: none;
     padding: 10px;
 	font-family: font-family: 'Poppins', sans-serif;
 	font-size: 20px;
@@ -234,6 +236,7 @@ li {
     1px -1px 0 #FFF,
     -1px 1px 0 #FFF,
     1px 1px 0 #FFF;
+    text-align: center;
 }
 
 .links:hover {
@@ -259,6 +262,8 @@ li {
 
 #toggle {
 	display: none;
+
+
 }
 
 @media screen and (max-width:768px) {
@@ -297,6 +302,12 @@ li {
 	text-decoration: none;
 	margin: auto 25px;
 	}
+
+	.links {
+	display:block;
+	text-align: center;
+	/*margin-left: 33%;*/
+	}
 }
 
 @media screen and (max-width:480px) {
@@ -311,14 +322,15 @@ li {
 		display: none;
 	}
 
-	a:link{
+	a:links{
 		display: block;
-		padding:15px;
-		margin: 0;
+		padding: 1%;
 	}
 
 	aside {
 		margin-left: none;
+		clear: none;
+		width: 100%;
 	}
 
 	label {
@@ -336,12 +348,24 @@ li {
 	letter-spacing: 2px;
 	}
 
+	#WhoIs {
+		margin-top: 2.5em;
+	}
+
 	.pages {
 	text-align: center;
 	text-decoration: none;
 	text-decoration: none;
 	margin: auto 20px;
 	color: #fff;
+	}
+
+	#InDepth {
+	width: 100%;
+	}
+
+	#Pages {
+	margin-bottom: 80px;
 	}
 
 	#toggle {
