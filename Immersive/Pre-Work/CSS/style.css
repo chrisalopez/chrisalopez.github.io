@@ -9,19 +9,53 @@ h1 {
 h2 {
 	color: #FFD700;
 }
+h1, h2, h4, footer, p {
+	text-align: center;
+}
+nav {
+	background-color: #808080;
+}
+a {
+	text-decoration: none;
+	background-color: #ffbf00;
+	color: #fff;
+	padding: 35px;
+	display: block;
+	float: left;
+}
+a:hover {
+	background-color: #ee5f3c;
+}
+footer {
+	background-color: #808080;
+	clear: both;
+}
 
 /* Below are ID */
 #board {
-	height: 80%;
+	height: 50%;
 	width: 50%;
 	display: inline-block;
 }
 
 /* Below are Classes*/
+.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+}
 .card {
 	height: 200px;
 	width: 150px;
 	border: 1px #000 solid;
 	background-color: #FFFF00;
 	border-radius: 10px;
+	float: left;
+	margin: 8%;
+}
+.name {
+	color: #ff0000;
 }
